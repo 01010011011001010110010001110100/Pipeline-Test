@@ -1,7 +1,7 @@
 {
-  "name": "electiva_2_practica_4",
+  "name": "pipeline-test",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "unitTest.test.js",
   "scripts": {
     "test": "jest"
   },
