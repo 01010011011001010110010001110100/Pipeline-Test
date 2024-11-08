@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "unitTest.test.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "app": "node src/js/app.js"
   },
   "keywords": [],
   "author": "",

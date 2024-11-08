@@ -1,0 +1,24 @@
+name: Compilation Test
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clona el repositorio
+        uses: actions/checkout@v3
+
+      - name: configura nodejs  
+        uses: actions/setup-node@v3
+        with:
+            node-version: '20' 
+
+      - name: Instalar Dependencias
+        run: npm install
+
+      - name: Ejecutar
+        run: npm run app
