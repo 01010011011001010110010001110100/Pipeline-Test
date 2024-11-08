@@ -1,0 +1,22 @@
+body {
+    color: red;
+    background-color: black;
+    text-align: center;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+}
+
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    gap: 1.3rem;
+}
+  
